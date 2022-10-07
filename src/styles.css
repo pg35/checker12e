@@ -1,0 +1,277 @@
+.pxq_pgck_error {
+  color: red;
+}
+.pxq_pgck_success {
+  color: darkgreen;
+}
+.pxq_pgck_center {
+  text-align: center;
+}
+.pxq_pgck_left {
+  text-align: left;
+}
+.pxq_pgck_bold {
+  font-weight: bold;
+}
+.pxq_pgck_row {
+  margin-bottom: 20px;
+}
+.pxq_pgck_stacked > * {
+  display: block;
+}
+.pxq_pgck_large {
+  font-size: 1.2em;
+}
+#pxq_pgck label {
+  display: inline-block;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+#pxq_pgck select {
+  padding: 5px 8px;
+}
+#pxq_pgck button {
+  padding: 5px 8px;
+}
+.pxq_pgck_button {
+  -webkit-user-drag: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  line-height: normal;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #e6e6e6;
+  border: transparent;
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 100%;
+  padding: 10px 20px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  border: 1px solid #e6e6e6;
+}
+.pxq_pgck_button--success {
+  background: rgb(28, 184, 65);
+  color: #fff;
+  border-color: rgb(28, 184, 65);
+}
+.pxq_pgck_button--disabled,
+.pxq_pgck_button[disabled] {
+  background-image: none;
+  border: none;
+  box-shadow: none;
+  cursor: not-allowed;
+  opacity: 0.4;
+  pointer-events: none;
+}
+.pxq_pgck_button:focus,
+.pxq_pgck_button:hover {
+  background-image: linear-gradient(
+    transparent,
+    rgba(0, 0, 0, 0.05) 40%,
+    rgba(0, 0, 0, 0.1)
+  );
+}
+#pxq_pgck table {
+  width: auto;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+  text-align: left;
+}
+#pxq_pgck th {
+  background: #ccc;
+}
+#pxq_pgck th,
+#pxq_pgck td {
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+.pxq_pgck_table--empty tr td {
+  text-align: center;
+  padding: 40px 30px !important;
+}
+.pxq_pgck_wrap {
+  min-width: 300px;
+  overflow: auto;
+}
+/****** container ***********/
+.pxq_pgck_container__body {
+  min-height: 300px;
+  border1: 1px solid red;
+}
+.pxq_pgck_container__footer {
+  text-align: center;
+}
+.pxq_pgck_container__footer button {
+  padding: 8px 12px !important;
+  margin-right: 10px;
+}
+
+/****** pages ***********/
+.pxq_pgck_page_billing,
+.pxq_pgck_page_plagiarism {
+  text-align: center;
+}
+.pxq_pgck_btn_retry {
+  margin-bottom: 20px;
+}
+/****** input ***********/
+.pxq_pgck_types {
+  margin-bottom: 10px;
+}
+.pxq_pgck_types label {
+  margin: 0 20px 10px 0;
+}
+
+.pxq_pgck_input__header {
+  margin-bottom: 20px;
+}
+.pxq_pgck_input__header label {
+  font-weight: bold;
+}
+.pxq_pgck_input_url input[type="url"],
+.pxq_pgck_input_text textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.pxq_pgck_input_text textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+/****** loading ***********/
+.pxq_pgck_loading.pxq_pgck_stacked > span {
+  margin-bottom: 10px;
+}
+.pxq_pgck_progress {
+  margin-bottom: 20px;
+}
+/****** menubar ***********/
+.pxq_pgck_menu {
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid;
+  text-align: left;
+}
+.pxq_pgck_menu::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.pxq_pgck_menu > div {
+  float: left;
+}
+.pxq_pgck_menu > div:last-child {
+  float: right;
+  margin-top: 7px;
+}
+.pxq_pgck_menu_item {
+  display: inline-block;
+  margin: 0 2px 0 0;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+.pxq_pgck_menu_item--active {
+  color: #fff;
+  background: #888;
+}
+/*--------list table*---------*/
+.pxq_pgck_table_list {
+  width: 100% !important;
+}
+tr.pxq_pgck_open {
+  border: 1px solid #aaa;
+  border-bottom: none;
+}
+tr.pxq_pgck_open > td {
+  border: none;
+}
+tr.pxq_pgck_open + tr > td {
+  border-top: none;
+}
+.pxq_pgck_actions > a {
+  margin: 5px;
+}
+.pxq_pgck_table_list__filter {
+  text-align: right;
+  margin-bottom: 10px;
+}
+.pxq_pgck_table_list__filter label {
+  margin-right: 5px;
+}
+.pxq_pgck_table_list__refresh {
+  text-align: left;
+  margin-bottom: 10px;
+}
+/*--------info table*---------*/
+.pxq_pgck_table_info {
+  display: inline-block;
+}
+/*-------- Popup style ------*/
+.pxq_pgck_overlay {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+.pxq_pgck_overlay__body {
+  position: relative;
+  width: 75%;
+  max-width: 500px;
+  margin: 0 auto;
+  height: auto;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: visible;
+  text-align: center;
+}
+
+.pxq_pgck_overlay__close {
+  content: "x";
+  cursor: pointer;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+  z-index: 100;
+}
+.pxq_pgck_overlay__close:hover {
+  background: darkred;
+  color: #fff;
+}
+.pxq_pgck_popup__header {
+  margin-bottom: 20px;
+}
+.pxq_pgck_popup__body {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+  line-height: 1.7em;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+.pxq_pgck_popup__header > span {
+  display: inline-block;
+
+  padding-bottom: 3px;
+  border-bottom: 2px solid #aaa;
+}
+.pxq_pgck_popup__header > span > h2 {
+  margin: 0;
+  letter-spacing: 1px;
+}
